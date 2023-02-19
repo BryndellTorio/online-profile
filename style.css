@@ -2,7 +2,7 @@ Body {
 	background-color: #474747;
 	color: #16537E;
 	font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
-	background-image: url('./images/earth.png');
+    background-image: url(./images/earth.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
