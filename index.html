@@ -1,33 +1,203 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utp-8" name="viewport" content="width=device-width, initial-scale=1">
-        <title>Career Profile</title>
-        <!--- <title>One verse</title> -->
-        <link rel='stylesheet' href="style.css">
-    </head>
-    <body>
-        <div class="greetings-container">
-            <div>
-                <b><em style="font-size: 5vw;">Coming soon...</em></b>
-            </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Responsive CV using Html & CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head> 
+  <body>
+    <div class="container">
+      <div class="left_Side">
+        <div class="profileText">
+          <div class="imgBx">
+            <img src="./images/profile-pic-scaled.png"> 
+          </div>
+          <h2>Bryndell Torio<br><span>Electronics Design Engineer</span></h2>
         </div>
-        <div class="brand-container">
-            <div>
-                <p style="font-size: 5vw;"><b>&quot Oneverse, One people, One earth."</b><br><em style="font-size: 4vw;">D3L</em></p>
-            </div>
+
+        <div class="contactInfo">
+          <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <span class="text">bryndelltorio@outlook.com</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+              <span class="text">www.linkedin.com</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+              <span class="text">www.github.com</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span class="text">Cavite, Phillipines</span>
+            </li>
+          </ul>
         </div>
-        <!-- <div class="contact-container"> -->
-        <!--         <div class=".responsive"> -->
-        <!--                 <img src="./images/mail.png" alt="email" class="iconDetails"> -->
-        <!--                 <img src="./images/phone.png" alt="phone number" class="iconDetails"> -->
-        <!--         </div> -->
-        <!--         <div class="contact-content"> -->
-        <!--                 <!-- <h4>test@gmail.com</h4> -->
-        <!--                 <h4>bryndelltorio@gmail.com</h4> -->
-        <!--                 <!-- <h4>sales@empoweredgsc.com</h4> -->
-        <!--                 <!-- <h4>+639052244080</h4> -->
-        <!--         </div> -->
-        <!-- </div> -->
-    </body>
+
+        <div class="contactInfo qualifications">
+          <h3 class="title">Summary of Qualifications</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Registered Electronics Technician, qualified Electronics Engineer.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">+5 years experience as an R&D engineer.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Fluent in C and Advanced Python programmer.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Experienced in firmware design communication protocol such as SPI, I2C, CAN, UART, DALI, and MODBUS.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Experienced in website design using LAMP stack with JavaScript, HTML and CSS.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Experienced in System admin using CentOS, Ubuntu, Kali, and Debian cloud server.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Experienced in PCB Design with strong consideration for Design for Testing and Design for Manufacturing.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Proficient with Computer Aided Design software Altium, Cadence/Allegro, and KiCAD.</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-circle" aria-hidden="true"></i></span>
+              <span class="text">Experienced developing firmware using the FreeRTOS and Zephyr.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo Skill">
+          <h3 class="title">Skills</h3>
+          <ul>
+              <h5 class="title">Laboratory Equipment</h5>
+            <li>
+              <span class="text">Oscilloscope</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+              <span class="text">Spectrum Analyzer</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+              <span class="text">Logic Analyzer</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+              <span class="text">Vector Network Analyzer</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+              <span class="text">Digital Multimeter</span>
+              <span class="percent">
+                <div style="width: 95%"></div>
+              </span>
+            </li>
+
+            <h5 class="title">Operating System</h5>
+
+            <li>
+              <span class="text">Linux</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+              <span class="text">Windows</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+              <span class="text">MacOS</span>
+              <span class="percent">
+                <div style="width: 75%"></div>
+              </span>
+            </li>
+
+            <h5 class="title">Programming Language</h5>
+
+            <li>
+              <span class="text">C/C++</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+              <span class="text">Python</span>
+              <span class="percent">
+                <div style="width: 85%"></div>
+              </span>
+              <span class="text">JavaScript</span>
+              <span class="percent">
+                <div style="width: 70%"></div>
+              </span>
+              <span class="text">Html</span>
+              <span class="percent">
+                <div style="width: 80%"></div>
+              </span>
+              <span class="text">Css</span>
+              <span class="percent">
+                <div style="width: 80%"></div>
+              </span>
+              <span class="text">Apache</span>
+              <span class="percent">
+                <div style="width: 60%"></div>
+              </span>
+              <span class="text">MySQL</span>
+              <span class="percent">
+                <div style="width: 60%"></div>
+              </span>
+            </li>
+
+            <h5 class="title">Design Software</h5>
+
+            <li>
+              <span class="text">Cadence</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+              <span class="text">Altium</span>
+              <span class="percent">
+                <div style="width: 90%"></div>
+              </span>
+              <span class="text">KiCAD</span>
+              <span class="percent">
+                <div style="width: 85%"></div>
+              </span>
+              <span class="text">SolidWorks</span>
+              <span class="percent">
+                <div style="width: 70%"></div>
+              </span>
+              <span class="text">Vim/Neovim</span>
+              <span class="percent">
+                <div style="width: 85%"></div>
+              </span>
+              <span class="text">Zephyr RTOS</span>
+              <span class="percent">
+                <div style="width: 65%"></div>
+              </span>
+              <span class="text">FreeRTOS</span>
+              <span class="percent">
+                <div style="width: 80%"></div>
+              </span>
+              <span class="text">Embedded Linux</span>
+              <span class="percent">
+                <div style="width: 70%"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="right_Side"> </div>
+    </div>
+  </body>
 </html>
