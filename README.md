@@ -1,5 +1,7 @@
-# Profile Website
+# NOTES
 
-This will be used to showcase my expertise and key capabilities.
+    The main objective of this repository is to showcase my expertise and key capabilities.
 
-## Online career biography
+    Use this [link](https://bryndelltorio.github.io/online-profile/) to access the web page.
+
+
