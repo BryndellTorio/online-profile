@@ -127,6 +127,11 @@ body
   font-weight: 300;
 }
 
+.contactInfo ul li span a
+{
+  color: #fff
+}
+
 .contactInfo.qualifications .text
 {
   font-size: 15px;
@@ -244,7 +249,15 @@ p
 
 .experience .box .text h4
 {
+  margin-bottom: 15px;
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
 }
+
+.experience .box .icon
+{
+  color: green;
+}
+
+.experience .box .text 
