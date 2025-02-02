@@ -6,4 +6,4 @@
 
 # You can find more information about me on my linkedin account.
 
-    [My Linkedin account](https://www.linkedin.com/in/bryndelltorio/)
+    [My Linkedin account](https://www.linkedin.com/in/bryndell-torio-b3202a119/)
