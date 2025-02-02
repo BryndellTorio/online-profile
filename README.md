@@ -4,4 +4,6 @@
 
     You can access the web page by clicking [this link:](https://bryndelltorio.github.io/online-profile/) to access the web page.
 
+# You can find more information about me on my linkedin account.
 
+    [My Linkedin account](https://www.linkedin.com/in/bryndelltorio/)
