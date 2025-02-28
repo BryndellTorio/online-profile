@@ -8,7 +8,7 @@
 
 body 
 {
-  background: lightblue;
+  background: #36454F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@ body
   position: relative;
   background: #003147;
   padding: 30px;
-}
+}
 
 .profileText
 {
